@@ -90,6 +90,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_MAX_BRIGHTNESS := 2047
 
 # 添加这行代码来加载 OrangeFoxConfig.mk
 -include $(DEVICE_PATH)/OrangeFoxConfig.mk
