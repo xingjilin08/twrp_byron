@@ -5,6 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_byron-user
-add_lunch_combo omni_byron-userdebug
-add_lunch_combo omni_byron-eng
+COMMON_LUNCH_CHOICES="omni_byron-eng omni_byron-userdebug omni_byron-user"
