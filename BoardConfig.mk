@@ -93,4 +93,11 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_MAX_BRIGHTNESS := 16383
 
 # 添加这行代码来加载 OrangeFoxConfig.mk
--include $(DEVICE_PATH)/OrangeFoxConfig.mk
+#-include $(DEVICE_PATH)/OrangeFoxConfig.mk
+
+# PitchBlack Recovery 配置
+PB_DISABLE_DEFAULT_MIUI := true
+PB_TORCH_PATH := /sys/class/leds/flashlight/brightness
+PB_DISABLE_DAEMON := true
+PB_FORCE_CPU_GOVERNOR := performance
+PB_OMNI_LUNCH := omni_byron-eng
